@@ -18,6 +18,7 @@ def take_a_number(deliline, name)
 end
 
 def now_serving(deliline)
+  
 end
 
 # #def line(deliline, name)
