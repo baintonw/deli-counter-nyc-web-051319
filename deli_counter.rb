@@ -18,7 +18,12 @@ def take_a_number(deliline, name)
 end
 
 def now_serving(deliline)
-  puts "Currently serving #{deliline.shift}."
+  if
+    deliline.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{deliline.shift}."
+  end
 end
 
 
