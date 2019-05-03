@@ -26,14 +26,3 @@ def now_serving(deliline)
   end
 end
 
-
-# #def line(deliline, name)
-#   if deliline.length == 0
-#     "The line is currently empty."
-#   else
-#   deliline.push(name)
-#   deliline.each_with_index do |x, i|
-#     puts "The line is currently: #{i+1}. #{x}"
-#   end
-# end
-# end
