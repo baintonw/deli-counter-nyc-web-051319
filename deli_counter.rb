@@ -18,8 +18,6 @@ def take_a_number(deliline, name)
 end
 
 def now_serving(deliline)
-  if deliline.length == 0
-    puts "The line is empty"
 end
 
 # #def line(deliline, name)
