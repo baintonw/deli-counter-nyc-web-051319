@@ -18,8 +18,9 @@ def take_a_number(deliline, name)
 end
 
 def now_serving(deliline)
-  
+  deliline.shift
 end
+
 
 # #def line(deliline, name)
 #   if deliline.length == 0
